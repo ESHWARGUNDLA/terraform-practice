@@ -1,8 +1,10 @@
 # Create Resource Group
-resource "azurerm_resource_group" "rg" {
-  name     = "rg-terraform-vm"
+
+resource "azurerm_resource_group" "main" {
+  name     = "example-resources"
   location = "East US"
 }
+
 
 # Create Virtual Network
 resource "azurerm_virtual_network" "main" {
