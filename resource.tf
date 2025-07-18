@@ -1,7 +1,7 @@
 # Create Resource Group
 
 resource "azurerm_resource_group" "main" {
-  name     = "example-resources"
+  name     = "example-resources-tf"
   location = "East US"
 }
 
